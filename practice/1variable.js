@@ -14,5 +14,20 @@
 // var, let, const
 
 a=1
+1
 a
-
+1
+a=2
+2
+a
+2
+var a=1
+undefined
+a=2
+2
+let a=1 //일반적으로 쓰인다.
+undefined
+a=2
+2
+const a=1  //바꿀 수 없는 변수라서 그렇다.
+VM260:1 Uncaught SyntaxError: Identifier 'a' has already been declared 
